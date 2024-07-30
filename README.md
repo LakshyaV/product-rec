@@ -1,37 +1,27 @@
-# AI-Driven Solutions for Interac
+# KONEK Product Recommmendation
 
 ## Overview
 
-This project involves the development and implementation of AI-driven solutions in collaboration with the Interac team, focusing on external opportunities using a point solutions approach. The project aims to leverage Interac's KONEK product to bridge the merchant-customer disconnect and enhance the shopping experience through advanced data analysis and recommendation techniques.
+This repository contains a suite of AI-driven models and techniques designed for enhancing recommendation systems and data analysis. The project leverages advanced machine learning methods to provide actionable insights and recommendations based on user cart data and industry trends.
 
-## Key Contributions
+## Key Components
 
-- **Collaboration with Interac Team**: Worked both online and in-person with the Interac team to formulate AI-driven solutions for external opportunities, employing a point solutions approach to address various challenges.
+### Current Cart Analysis
+- **Word2Vec Model**: Implemented to analyze current cart data and find similar products based on semantic relationships in vector space. This model helps in identifying products with similar features and attributes.
 
-- **KONEK Product Utilization**: Leveraged Interac's new KONEK product to utilize its quality and rich data for closing the merchant-customer disconnect, enhancing the overall user experience.
+### Item Set Discovery
+- **FP-Growth Algorithm**: Used for discovering frequent item sets efficiently. This model aligns with existing AI processes to provide computationally inexpensive methods for item set discovery, crucial for generating recommendations.
 
-- **Current Cart Analysis**: Implemented a Word2Vec model to analyze current cart data and search for similar products based on semantic relationships in the product's vector representations.
+### Past Cart Analysis
+- **LSTM (Long Short-Term Memory)**: Applied for analyzing sequential patterns in historical cart data. LSTM helps in understanding user behavior over time and predicting future purchases based on past patterns.
+- **Neural Collaborative Filtering**: Utilized to capture user preferences and interactions. This model enhances the recommendation system by learning complex user-item interactions.
 
-- **Item Set Discovery**: Applied the FP-Growth model to align with Interac's existing AI processes, developing computationally efficient methods for discovering item sets relevant to consumers.
+### Industry-Specific Analysis
+- **Natural Language Processing (NLP)**: Employed to generate industry-specific reports and insights. NLP techniques are used to analyze customer trends and patterns, providing merchants with valuable data on generalized consumer behavior.
 
-- **Past Cart Analysis**: Utilized LSTM and Neural Collaborative Filtering models to analyze past cart data, identifying sequential patterns, seasonal trends, and other non-obvious variations.
+## Setup and Installation
 
-- **Industry-Specific Analysis Report**: Generated an industry-specific analysis report using Natural Language Processing (NLP) to provide merchants with insights into generalized customer trends and patterns.
-
-- **Successful Pitch**: Successfully pitched the project at the Interac office in Toronto, demonstrating the value and effectiveness of the proposed solutions.
-
-## Models and Techniques
-
-- **Word2Vec**: Used for semantic analysis and similarity search of current cart items.
-- **FP-Growth**: Employed for efficient discovery of item sets.
-- **LSTM (Long Short-Term Memory)**: Applied for analyzing sequential patterns and trends in past cart data.
-- **Neural Collaborative Filtering**: Utilized for understanding user preferences and trends.
-- **NLP (Natural Language Processing)**: Implemented for generating industry-specific analysis reports.
-
-## Getting Started
-
-To get started with this project, clone the repository and follow the instructions in the `docs` folder for setup and usage.
-
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
