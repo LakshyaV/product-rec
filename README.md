@@ -9,7 +9,7 @@ This repository contains a suite of AI-driven models and techniques designed for
 ### Current Cart Analysis
 - **Word2Vec Model**: 
   - **Description**: Word2Vec is a neural network-based model that transforms items into vector representations. These vectors capture semantic relationships between items, allowing the model to find similar products by measuring vector similarity.
-  - **How It Works**: Trains on item descriptions or attributes to generate dense vector embeddings. Similar items are identified by comparing vector distances in the embedding space, enabling the recommendation of products with analogous features.
+  - **How It Works**: Trains on item descriptions or attributes to generate dense vector embeddings. Similar items are identified by comparing vector distances in the embedding space and semantic relationships, enabling the recommendation of products with analogous features.
 
 ### Item Set Discovery
 - **FP-Growth Algorithm**: 
