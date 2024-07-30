@@ -23,7 +23,7 @@ This repository contains a suite of AI-driven models and techniques designed for
 
 - **Neural Collaborative Filtering**:
   - **Description**: Neural Collaborative Filtering (NCF) is a model that combines matrix factorization with neural networks to predict user preferences. It captures complex interactions between users and items.
-  - **How It Works**: Utilizes neural networks to learn latent features from user-item interaction data. The network processes these features to predict the likelihood of user preferences for unseen items, improving recommendation accuracy.
+  - **How It Works**: Utilizes neural networks to learn latent features from store-item interaction data. The network processes these features to predict the likelihood of user preferences for unseen items, improving recommendation accuracy.
  
 ## Next Steps
 
