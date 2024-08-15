@@ -54,4 +54,4 @@ To further enhance the effectiveness and accuracy of the models and analyses, th
 1. Clone the repository:
    ```bash
    git clone https://github.com/LakshyaV/product-rec.git
-   cd your-repo
+   cd product-rec
