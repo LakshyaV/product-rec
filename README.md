@@ -1,4 +1,4 @@
-# KONEK Product Recommmendation
+# Product Recommmendation
 
 ## Overview
 
